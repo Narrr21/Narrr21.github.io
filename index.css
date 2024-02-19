@@ -101,7 +101,7 @@ footer section div{
     margin-left: auto;
     margin-right: auto;
 }
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 500px) {
 }
     main section article{
         width: 300px;
