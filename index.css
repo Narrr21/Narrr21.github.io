@@ -106,6 +106,7 @@ footer section div{
         width: 300px;
     }
     #social{
+        border-style: dotted;
         justify-content: center;
         display: flex;
         padding-left: 35%;
