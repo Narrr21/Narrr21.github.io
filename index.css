@@ -1,0 +1,104 @@
+body{
+    background-color: #90e0ef;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+header{
+    width: 100%;
+    background-color: #2a9edd;
+    padding-bottom: 10px;
+}
+header article{
+    text-align: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+main{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+/* Memposisikan tiap poin di section about dan tugas */
+main section article{
+    display: flex;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    border-style: solid;
+    margin-top: 10px;
+    border-color:  #064567;
+}
+main section article a:hover {
+    background-color: #2a9edd;
+    color: white;
+}
+main section article a{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 20px;
+    padding: 10px;
+}
+footer{
+    background-color: #2a9edd;
+}
+footer section div{
+    display: flex;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+#social{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-left: 35%;
+    padding-right: 35%;
+    padding-top: 40px;
+}
+#social div {
+    justify-content: center;
+    width: 50px;
+    height: 40px;
+    padding-top: 8px;
+    border-radius: 10px;
+}
+#social div a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+#social div:hover{
+    background-color: black;
+}
+#social div a i:hover{
+    font-size: 2em;
+    color: #90e0ef;
+    opacity: 0.9;
+}
+#contact{
+    display: flex;
+}
+#contact div{
+    border-style: solid;
+    border-width: 3px;
+    border-color: #90e0ef;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+#contact div p{
+    text-decoration: underline;
+    margin-left: auto;
+    margin-right: auto;
+}
+
