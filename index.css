@@ -101,4 +101,35 @@ footer section div{
     margin-left: auto;
     margin-right: auto;
 }
-
+@media screen and (min-width: 300px) {
+}
+    main section article{
+        width: 300px;
+    }
+    #social{
+        justify-content: center;
+        display: flex;
+        padding-left: 35%;
+        padding-right: 35%;
+        padding-top: 40px;
+    }
+    #social div {
+        justify-content: center;
+        width: 50px;
+        height: 30px;
+        border-radius: 10px;
+        padding: 5px;
+        margin: 10px;
+    }
+    #contact{
+        display: block;
+    }
+    #contact div{
+        max-width: 200px;
+        max-height: min-content;
+    }
+    #contact div p{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
