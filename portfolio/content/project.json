@@ -1,12 +1,67 @@
 {
   "title": "Projects",
   "description": "A collection of my work and project.",
+  "filter": ["All", "Web Development", "Backend", "Frontend", "Fullstack", "Algorithms", "Operating Systems", "Game Development", "Tools", "AI"],
   "projects": [
     {
-      "title": "Raft Consensus Algorithm",
-      "description": "A distributed consensus implementation in Rust to handle log replication and fault tolerance. This project demonstrates understanding of distributed systems principles and the implementation of leader election, log replication, and safety mechanisms.",
-      "tags": ["Rust", "Distributed Systems", "Consensus Algorithm"],
-      "link": "https://github.com/Narrr21"
+      "title": "Linux From Scratch (LFS) Virtual Appliance",
+      "description": "A custom Linux distribution built from scratch following the LFS documentation, packaged as a VirtualBox Open Virtualization Format (OVA) for easy deployment and testing.",
+      "tags": ["Operating Systems", "Tools"],
+      "link": "https://drive.google.com/file/d/1BL6K7DP3b6_oGBhM-3KGD1X8Gqmj9q5W/view?usp=sharing"
+    },
+    {
+      "title": "IContract (Contract Management System)",
+      "description": "An integrated contract management system designed to streamline the creation, tracking, and management of contracts within an organization.",
+      "tags": ["Web Development", "Fullstack"],
+      "link": "https://github.com/Narrr21/IContract"
+    },
+    {
+      "title": "ATS CV Analyzer",
+      "description": "An Applicant Tracking System (ATS) that utilizes string matching algorithms (KMP, BM, Aho-Corasick) and fuzzy matching to efficiently analyze and filter CVs.",
+      "tags": ["Algorithms", "AI", "Tools"],
+      "link": "https://github.com/Narrr21/Tubes3_HR_Magang"
+    },
+    {
+      "title": "Little Alchemy 2 Recipe Finder (Backend)",
+      "description": "A backend service that implements BFS, DFS, and Bidirectional Search algorithms to find element recipes and generation trees for the game Little Alchemy 2.",
+      "tags": ["Backend", "Algorithms"],
+      "link": "https://github.com/koinen/Tubes2_BE_tabelPeriodik"
+    },
+    {
+      "title": "Little Alchemy 2 Recipe Finder (Frontend)",
+      "description": "The frontend interface for the Little Alchemy 2 recipe finder, featuring interactive tree visualizations of element combinations using graph-based search results.",
+      "tags": ["Frontend", "Web Development"],
+      "link": "https://github.com/Narrr21/Tubes2_FE_tabelPeriodik"
+    },
+    {
+      "title": "Better Call Pascal (Pascal-S Compiler)",
+      "description": "A simple compiler for the Pascal-S programming language, featuring a lexer, parser, and semantic analyzer, developed as part of the Formal Language and Automata Theory course.",
+      "tags": ["Algorithms", "Tools"],
+      "link": "https://github.com/pixelatedbus/BCP-Tubes-IF2224"
+    },
+    {
+      "title": "Quadtree Image Compressor & GIF Generator",
+      "description": "An image compression tool that uses the Divide and Conquer algorithm (Quadtree) to compress images and generate step-by-step GIF visualizations using various metrics like Variance, SSIM, and Entropy.",
+      "tags": ["Algorithms", "Tools"],
+      "link": "https://github.com/Narrr21/Tucil2_13523064_13523076"
+    },
+    {
+      "title": "AI Course Scheduler",
+      "description": "An automated course scheduling application that utilizes local search algorithms to optimize class timings and room assignments based on specific constraints.",
+      "tags": ["AI", "Algorithms", "Tools"],
+      "link": "https://github.com/pixelatedbus/AI-scheduler"
+    },
+    {
+      "title": "Rush Hour Puzzle Solver",
+      "description": "A web-based puzzle solver for the game 'Rush Hour' that implements various pathfinding and heuristic algorithms like A*, GBFS, UCS, and Simulated Annealing to find optimal solutions.",
+      "tags": ["Web Development", "Algorithms", "AI"],
+      "link": "https://github.com/Narrr21/Tucil3_13523076_13523083"
+    },
+    {
+      "title": "Yu-Gi-Oh! Card Collection Manager",
+      "description": "A card management system for Yu-Gi-Oh! enthusiasts that allows users to search, collect, and manage their card decks through an interactive interface.",
+      "tags": ["Algorithms", "Tools"],
+      "link": "https://github.com/Narrr21/Kartu_Yu-Gi-Oh"
     }
   ]
 }

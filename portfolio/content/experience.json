@@ -1,6 +1,16 @@
 {
   "title": "Experience",
   "description": "My professional journey and organizational involvement throughout my academic career.",
+  "filter": [
+    "All",
+    "Web Development",
+    "Frontend",
+    "Backend",
+    "Full Stack",
+    "Game Design",
+    "Mentoring",
+    "Project Management"
+  ],
   "experiences": [
     {
       "title": "Staff of Tech & Development",
@@ -8,6 +18,18 @@
       "period": "Dec 2024 – Present",
       "description": "Develop, Update and Maintain a web app called \"PIPS!\" that serve as base for HMIF.",
       "skills": ["Web Development", "Full Stack", "Maintenance"]
+    },
+    {
+      "title": "Teaching Assistant for Introduction to Computing",
+      "organization": "Institut Teknologi Bandung",
+      "period": "Aug 2025 – Dec 2025",
+      "description": "Assisted in conducting laboratory sessions for over 70+ students and grading assignments.",
+      "skills": [
+        "Python",
+        "Algorithm & Data Structures",
+        "Public Speaking",
+        "Mentoring"
+      ]
     },
     {
       "title": "Staff of Game Design Division",
