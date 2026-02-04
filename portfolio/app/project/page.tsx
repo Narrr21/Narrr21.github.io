@@ -185,6 +185,7 @@ function ProjectRow({
             {title}
           </h3>
           <p className="text-slate-300 leading-relaxed">{description}</p>
+          <p className="text-slate-300 leading-relaxed">Link: {link}</p>
           <div className="flex flex-wrap gap-2 pt-2">
             {tags.map((tag) => (
               <span key={tag} className="skill-badge skill-badge-blue">
