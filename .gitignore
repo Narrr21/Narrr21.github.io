@@ -1,0 +1,12 @@
+# Ignore build output files in root
+/_next/
+/about/
+/experience/
+/project/
+/_not-found/
+*.html
+*.txt
+*.ico
+*.jpg
+*.pdf
+!portfolio/
