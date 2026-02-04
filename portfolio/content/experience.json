@@ -1,0 +1,62 @@
+{
+  "title": "Experience",
+  "description": "My professional journey and organizational involvement throughout my academic career.",
+  "experiences": [
+    {
+      "title": "Staff of Tech & Development",
+      "organization": "HMIF ITB",
+      "period": "Dec 2024 – Present",
+      "description": "Develop, Update and Maintain a web app called \"PIPS!\" that serve as base for HMIF.",
+      "skills": ["Web Development", "Full Stack", "Maintenance"]
+    },
+    {
+      "title": "Staff of Game Design Division",
+      "organization": "Ganesha Interactive Media ITB",
+      "period": "Mar 2025 – Present",
+      "description": "Creating and executing work program for the Game Design division.",
+      "skills": ["Game Design", "Project Management", "Program Planning"]
+    },
+    {
+      "title": "Staff of IT",
+      "organization": "Amateur Radio Club ITB",
+      "period": "Jan 2025 – Present",
+      "description": "Develop, Update and Maintain a website for ARC",
+      "skills": ["Web Development", "Frontend", "Maintenance"]
+    },
+    {
+      "title": "Staff IT",
+      "organization": "IMPACT STEI-K 2024",
+      "period": "May 2024 – July 2024",
+      "description": "Develop a website as a frontend engineer for the event",
+      "skills": ["Frontend Development", "Web Development"]
+    },
+    {
+      "title": "Staff IT",
+      "organization": "Parade Wisuda Oktober ITB 2024",
+      "period": "Sep 2024 – Oct 2024",
+      "description": "Develop a website as a frontend engineer for the event",
+      "skills": ["Frontend Development", "Web Development"]
+    },
+    {
+      "title": "Internship",
+      "organization": "HMIF Tech & Development",
+      "period": "Oct 2024 – Dec 2024",
+      "description": "Develop a web app as a backend engineer for the team",
+      "skills": ["Backend Development", "Web Development", "API Development"]
+    },
+    {
+      "title": "Mentor",
+      "organization": "Ganesha Interactive Media",
+      "period": "Sep 2024 – Feb 2025",
+      "description": "Guiding apprentices to follow through the GIM APPS program",
+      "skills": ["Team Work", "Mentoring"]
+    },
+    {
+      "title": "Trainer",
+      "organization": "Ganesha Interactive Media",
+      "period": "Sep 2024 – Feb 2025",
+      "description": "Training apprentices about game design",
+      "skills": ["Game Design", "Training"]
+    }
+  ]
+}

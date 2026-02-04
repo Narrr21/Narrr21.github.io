@@ -1,0 +1,15 @@
+{
+  "hero": {
+    "name": "Nadhif Al Rozin",
+    "title": "Software Engineer",
+    "summary": "I am undergraduate student majoring in Informatics Engineering at Institut Teknologi Bandung, currently in 6th semester. I have a keen interest in software engineering and cybersecurity.",
+    "profileImage": "/foto.jpg",
+    "profilePlaceholder": "NAR"
+  },
+  "social": {
+    "email": "13523076@mahasiswa.itb.ac.id",
+    "github": "https://github.com/Narrr21",
+    "linkedin": "#",
+    "instagram": "#"
+  }
+}

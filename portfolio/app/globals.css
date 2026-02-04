@@ -1,26 +1,69 @@
 @import "tailwindcss";
 
+/* ===== Global Variables ===== */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0f172a;
+  --foreground: #f8fafc;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* ===== Base Styles ===== */
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:
+    "Inter",
+    system-ui,
+    -apple-system,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ===== Utility Classes ===== */
+.btn-primary {
+  @apply px-6 py-3 rounded-lg bg-blue-600 hover:bg-blue-500 transition-colors text-white font-medium;
+}
+
+.btn-secondary {
+  @apply px-6 py-3 rounded-lg border border-slate-700 hover:bg-slate-800 transition-colors text-white font-medium;
+}
+
+.social-icon {
+  @apply p-3 rounded-lg bg-slate-800 hover:bg-slate-700 transition-colors text-slate-300 hover:text-white;
+}
+
+.nav-link {
+  @apply transition-colors duration-200 hover:text-white flex items-center gap-2;
+}
+
+/* ===== Skill Badge Styles ===== */
+.skill-badge-blue {
+  border-color: rgb(59 130 246 / 0.3);
+  background-color: rgb(59 130 246 / 0.1);
+  color: rgb(147 197 253);
+}
+
+.skill-badge-green {
+  border-color: rgb(34 197 94 / 0.3);
+  background-color: rgb(34 197 94 / 0.1);
+  color: rgb(134 239 172);
+}
+
+.skill-badge-purple {
+  border-color: rgb(168 85 247 / 0.3);
+  background-color: rgb(168 85 247 / 0.1);
+  color: rgb(216 180 254);
+}
+
+.skill-badge-orange {
+  border-color: rgb(249 115 22 / 0.3);
+  background-color: rgb(249 115 22 / 0.1);
+  color: rgb(253 186 116);
+}
+
+.skill-badge {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border-width: 1px;
+  font-size: 0.875rem;
+  font-weight: 500;
 }

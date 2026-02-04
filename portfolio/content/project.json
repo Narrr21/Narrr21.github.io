@@ -1,0 +1,12 @@
+{
+  "title": "Projects",
+  "description": "A collection of my work and project.",
+  "projects": [
+    {
+      "title": "Raft Consensus Algorithm",
+      "description": "A distributed consensus implementation in Rust to handle log replication and fault tolerance. This project demonstrates understanding of distributed systems principles and the implementation of leader election, log replication, and safety mechanisms.",
+      "tags": ["Rust", "Distributed Systems", "Consensus Algorithm"],
+      "link": "https://github.com/Narrr21"
+    }
+  ]
+}

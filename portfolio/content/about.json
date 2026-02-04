@@ -1,0 +1,13 @@
+{
+  "title": "About Me",
+  "description": [
+    "I'm Nadhif Al Rozin, an undergraduate Computer Science student at Institut Teknologi Bandung (ITB).",
+    "My current focus lie in software engineering, particularly in distributed systems either through my projects or coursework.",
+    "Beyond software programming, I also explore cybersecurity field especially in crypthography. I also like to make game as a hobby."
+  ],
+  "skills": {
+    "languages": ["Python", "Java", "C++", "Go", "Haskell", "HTML", "CSS", "JavaScript", "TypeScript", "SQL"],
+    "technologies": ["Hono", "Express", "React.js", "Tailwind", "Vite", "Shadcn", "PostgreSQL", "MariaDB", "MongoDB", "Git", "Docker", "Postman", "Figma"],
+    "focusAreas": ["Web Development", "cybersecurity", "Software Engineering", "Distributed Systems"]
+  }
+}
