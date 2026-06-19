@@ -15,7 +15,7 @@
     "Tools",
     "AI"
   ],
-"techstack": [
+  "techstack": [
     "Python",
     "Java",
     "C++",
@@ -46,18 +46,42 @@
   ],
   "projects": [
     {
-      "title": "Linux From Scratch (LFS) Virtual Appliance",
-      "description": "A custom Linux distribution built from scratch following the LFS documentation, packaged as a VirtualBox Open Virtualization Format (OVA) for easy deployment and testing.",
-      "tags": ["Operating Systems"],
-      "techstack": [],
-      "link": "https://drive.google.com/file/d/1BL6K7DP3b6_oGBhM-3KGD1X8Gqmj9q5W/view?usp=sharing"
+      "title": "MOKI (Manajemen Organisasi Komunikasi dan Informasi)",
+      "description": "A website that developed for IOM ITB used for management content across social media that also capable of ticketing and blast message from WA",
+      "tags": ["Fullstack", "Web Development"],
+      "techstack": [
+        "TypeScript",
+        "React.js",
+        "Next.js",
+        "Tailwind",
+        "PostgreSQL",
+        "Prisma",
+        "Docker"
+      ],
+      "link": "https://github.com/Narrr21/IContract"
     },
     {
       "title": "IContract (Contract Management System)",
       "description": "An integrated contract management system designed to streamline the creation, tracking, and management of contracts within an organization.",
       "tags": ["Fullstack", "Web Development", "AI"],
-      "techstack": ["TypeScript", "React.js", "Next.js", "Tailwind", "Shadcn", "PostgreSQL", "Prisma", "Docker"],
+      "techstack": [
+        "TypeScript",
+        "React.js",
+        "Next.js",
+        "Tailwind",
+        "Shadcn",
+        "PostgreSQL",
+        "Prisma",
+        "Docker"
+      ],
       "link": "https://github.com/Narrr21/IContract"
+    },
+    {
+      "title": "Linux From Scratch (LFS) Virtual Appliance",
+      "description": "A custom Linux distribution built from scratch following the LFS documentation, packaged as a VirtualBox Open Virtualization Format (OVA) for easy deployment and testing.",
+      "tags": ["Operating Systems"],
+      "techstack": [],
+      "link": "https://drive.google.com/file/d/1BL6K7DP3b6_oGBhM-3KGD1X8Gqmj9q5W/view?usp=sharing"
     },
     {
       "title": "ATS CV Analyzer",
